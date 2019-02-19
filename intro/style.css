@@ -29,13 +29,29 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
+}
+
+.box {
+  flex: 1; /* Take all the width and evenly distribute it over items */
+  order: 1;
+}
+
+.box3 {
+  order: 2;
+}
+
+.box5 {
+  order: 3;
+}
+
+/* .container {
+  display: flex;
   border: 10px solid goldenrod;
   height: 100vh;
   flex-direction: row;
   flex-wrap: wrap;
-}
+} 
 
 .box {
   width: 33.333%;
-  /* padding: 10px; */
-}
+} */
