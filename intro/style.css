@@ -29,19 +29,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display: flex;
+  /* justify-content: center; */
+  border: 10px solid mistyrose;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.box {
-  flex: 1; /* Take all the width and evenly distribute it over items */
-  order: 1;
+.box1 {
+  font-size: 40px;
 }
 
-.box3 {
-  order: 2;
+.box2 {
+  font-size: 400px;
 }
 
 .box5 {
-  order: 3;
+  font-size: 180px;
 }
 
 /* .container {
